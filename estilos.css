@@ -48,7 +48,7 @@ body {
     position: relative; 
 }
 
-header .textos-header {
+header .HeaderBienvenido {
     display: flex;
     height: 550px;
     width: 100%;
@@ -56,7 +56,7 @@ header .textos-header {
     justify-content: center;
 }
 
-.textos-header {
+.HeaderBienvenido {
     font-size: 50px;
     color: #fff;
 }
@@ -70,7 +70,7 @@ header .textos-header {
 
 /* Menu de navegacion  */
 
-.nav {
+.ContainerTituloMenues {
     position: fixed;
     width: 100%;
     background-size: cover;
@@ -82,13 +82,14 @@ header .textos-header {
     transition: all 0.5s ease;
 }
 
-.nav.active{
+.ContainerTituloMenues.active{
     background: #123745;
     padding: 15px;
+    width: 100%;
 }
 
-.nav.active .logo,
-.nav.active a {
+.ContainerTituloMenues.active .TituloISD,
+.ContainerTituloMenues.active a {
     color: #ffffff;
     position: relative;
     display: inline-flex;
@@ -96,22 +97,23 @@ header .textos-header {
     background-attachment: fixed;
 }
 
-.nav.active a:hover {
+.ContainerTituloMenues.active a:hover {
     background: #fff;
     color: #123745;
 }
 
-.logo {
+.TituloISD {
     font-size: 20px;
     color: #fff;
     font-weight: 100;
 }
 
 .menu {
-    display: inline-flex;
+    /*display: inline-flex;*/
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
+    /*position: relative;*/
+    padding: 10px;
 }
 
 .menu>li {
@@ -125,6 +127,7 @@ header .textos-header {
     font-size: 25px;
     text-decoration: none;
     transition: all 0.5s ease;
+    
 }
 
 .menu li a:hover {
@@ -331,7 +334,7 @@ header .textos-header {
 
 body {
     font-family: 'open sans';
-
+    width: 100%;
 }
 
 .navegacion {
