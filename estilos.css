@@ -13,7 +13,7 @@ body {
 
 .titulo {
     color: #2ea1a1;
-    font-size: 30px;
+    font-size: 100px;
     text-align: center;
     margin-bottom: 60px;
 
@@ -48,7 +48,7 @@ header .textos-header {
 }
 
 .textos-header {
-    font-size: 50px;
+    font-size: 1000px;
     color: #fff;
     
 }
@@ -91,9 +91,10 @@ header .textos-header {
 }
 
 .logo {
-    font-size: 20px;
+    font-size: x-large;
     color: #fff;
-    font-weight: 100;
+    font-weight: 200;
+    font-display: swap;
 }
 
 .menu {
@@ -207,7 +208,7 @@ header .textos-header{
 }
 
 .textos-header{
-    font-size: 50px;
+    font-size: x-large;
     color: #fff;
 }
 */
