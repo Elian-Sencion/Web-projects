@@ -11,7 +11,7 @@ body {
 
 }
 
-.titulo {
+nav.titulo {
     color: #2ea1a1;
     font-size: 100px;
     text-align: center;
@@ -208,7 +208,7 @@ header .textos-header{
 }
 
 .textos-header{
-    font-size: x-large;
+    font-size: 50px;
     color: #fff;
 }
 */
@@ -465,7 +465,8 @@ body {
     position: relative;
 }
 
-header .textos-header{
+.header.textos-header.wel{
+    font-size: large;
     display: flex;
     height: 430px;
     width: 100%;
@@ -473,12 +474,7 @@ header .textos-header{
     justify-content: center;
 }
 
-.textos-header{
-    font-size: 50px;
-    color: #fff;
-}
-
-.wave{
+.header.textos-header.wave {
     position: absolute;
     bottom: 0;
     width: 100%;
