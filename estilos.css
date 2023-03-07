@@ -58,6 +58,7 @@ header .textos-header {
 .textos-header {
     font-size: 50px;
     color: #fff;
+    
 }
 
 .wave {
@@ -83,6 +84,7 @@ header .textos-header {
 .nav.active{
     background: #123745;
     padding: 15px;
+    z-index: 1000;
 }
 
 .nav.active .logo,
@@ -93,6 +95,7 @@ header .textos-header {
 .nav.active a:hover {
     background: #fff;
     color: #123745;
+    
 }
 
 .logo {
@@ -188,21 +191,12 @@ header .textos-header {
 
 .contenido-textos h3 {
     margin-bottom: 15px;
-}
-
-.contenido-textos h3 span {
-    background: #4d0686;
-    color: #fff;
-    border-radius: 50%;
-    display: inline-block;
     text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-    margin-right: 5px;
-
+    font-style: normal;
+    color:#123745
 }
+
+
 
 .contenido-textos p {
     padding: 0px 0px 30px 15px;
